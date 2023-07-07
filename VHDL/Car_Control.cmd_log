@@ -1,0 +1,113 @@
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rx.ucf -p xc6slx9-tqg144-3 Car_Control.ngc Car_Control.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Car_Control_map.ncd Car_Control.ngd Car_Control.pcf 
+par -w -intstyle ise -ol high -mt off Car_Control_map.ncd Car_Control.ncd Car_Control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Car_Control.twx Car_Control.ncd -o Car_Control.twr Car_Control.pcf -ucf rx.ucf 
+bitgen -intstyle ise -f Car_Control.ut Car_Control.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rx.ucf -p xc6slx9-tqg144-3 Car_Control.ngc Car_Control.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Car_Control_map.ncd Car_Control.ngd Car_Control.pcf 
+par -w -intstyle ise -ol high -mt off Car_Control_map.ncd Car_Control.ncd Car_Control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Car_Control.twx Car_Control.ncd -o Car_Control.twr Car_Control.pcf -ucf rx.ucf 
+bitgen -intstyle ise -f Car_Control.ut Car_Control.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rx.ucf -p xc6slx9-tqg144-3 Car_Control.ngc Car_Control.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Car_Control_map.ncd Car_Control.ngd Car_Control.pcf 
+par -w -intstyle ise -ol high -mt off Car_Control_map.ncd Car_Control.ncd Car_Control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Car_Control.twx Car_Control.ncd -o Car_Control.twr Car_Control.pcf -ucf rx.ucf 
+bitgen -intstyle ise -f Car_Control.ut Car_Control.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rx.ucf -p xc6slx9-tqg144-3 Car_Control.ngc Car_Control.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Car_Control_map.ncd Car_Control.ngd Car_Control.pcf 
+par -w -intstyle ise -ol high -mt off Car_Control_map.ncd Car_Control.ncd Car_Control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Car_Control.twx Car_Control.ncd -o Car_Control.twr Car_Control.pcf -ucf rx.ucf 
+bitgen -intstyle ise -f Car_Control.ut Car_Control.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rx.ucf -p xc6slx9-tqg144-3 Car_Control.ngc Car_Control.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Car_Control_map.ncd Car_Control.ngd Car_Control.pcf 
+par -w -intstyle ise -ol high -mt off Car_Control_map.ncd Car_Control.ncd Car_Control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Car_Control.twx Car_Control.ncd -o Car_Control.twr Car_Control.pcf -ucf rx.ucf 
+bitgen -intstyle ise -f Car_Control.ut Car_Control.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rx.ucf -p xc6slx9-tqg144-3 Car_Control.ngc Car_Control.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Car_Control_map.ncd Car_Control.ngd Car_Control.pcf 
+par -w -intstyle ise -ol high -mt off Car_Control_map.ncd Car_Control.ncd Car_Control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Car_Control.twx Car_Control.ncd -o Car_Control.twr Car_Control.pcf -ucf rx.ucf 
+bitgen -intstyle ise -f Car_Control.ut Car_Control.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rx.ucf -p xc6slx9-tqg144-3 Car_Control.ngc Car_Control.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Car_Control_map.ncd Car_Control.ngd Car_Control.pcf 
+par -w -intstyle ise -ol high -mt off Car_Control_map.ncd Car_Control.ncd Car_Control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Car_Control.twx Car_Control.ncd -o Car_Control.twr Car_Control.pcf -ucf rx.ucf 
+bitgen -intstyle ise -f Car_Control.ut Car_Control.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rx.ucf -p xc6slx9-tqg144-3 Car_Control.ngc Car_Control.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Car_Control_map.ncd Car_Control.ngd Car_Control.pcf 
+par -w -intstyle ise -ol high -mt off Car_Control_map.ncd Car_Control.ncd Car_Control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Car_Control.twx Car_Control.ncd -o Car_Control.twr Car_Control.pcf -ucf rx.ucf 
+bitgen -intstyle ise -f Car_Control.ut Car_Control.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rx.ucf -p xc6slx9-tqg144-3 Car_Control.ngc Car_Control.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Car_Control_map.ncd Car_Control.ngd Car_Control.pcf 
+par -w -intstyle ise -ol high -mt off Car_Control_map.ncd Car_Control.ncd Car_Control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Car_Control.twx Car_Control.ncd -o Car_Control.twr Car_Control.pcf -ucf rx.ucf 
+bitgen -intstyle ise -f Car_Control.ut Car_Control.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rx.ucf -p xc6slx9-tqg144-3 Car_Control.ngc Car_Control.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Car_Control_map.ncd Car_Control.ngd Car_Control.pcf 
+par -w -intstyle ise -ol high -mt off Car_Control_map.ncd Car_Control.ncd Car_Control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Car_Control.twx Car_Control.ncd -o Car_Control.twr Car_Control.pcf -ucf rx.ucf 
+bitgen -intstyle ise -f Car_Control.ut Car_Control.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rx.ucf -p xc6slx9-tqg144-3 Car_Control.ngc Car_Control.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Car_Control_map.ncd Car_Control.ngd Car_Control.pcf 
+par -w -intstyle ise -ol high -mt off Car_Control_map.ncd Car_Control.ncd Car_Control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Car_Control.twx Car_Control.ncd -o Car_Control.twr Car_Control.pcf -ucf rx.ucf 
+bitgen -intstyle ise -f Car_Control.ut Car_Control.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rx.ucf -p xc6slx9-tqg144-3 Car_Control.ngc Car_Control.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Car_Control_map.ncd Car_Control.ngd Car_Control.pcf 
+par -w -intstyle ise -ol high -mt off Car_Control_map.ncd Car_Control.ncd Car_Control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Car_Control.twx Car_Control.ncd -o Car_Control.twr Car_Control.pcf -ucf rx.ucf 
+bitgen -intstyle ise -f Car_Control.ut Car_Control.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rx.ucf -p xc6slx9-tqg144-3 Car_Control.ngc Car_Control.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Car_Control_map.ncd Car_Control.ngd Car_Control.pcf 
+par -w -intstyle ise -ol high -mt off Car_Control_map.ncd Car_Control.ncd Car_Control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Car_Control.twx Car_Control.ncd -o Car_Control.twr Car_Control.pcf -ucf rx.ucf 
+bitgen -intstyle ise -f Car_Control.ut Car_Control.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rx.ucf -p xc6slx9-tqg144-3 Car_Control.ngc Car_Control.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Car_Control_map.ncd Car_Control.ngd Car_Control.pcf 
+par -w -intstyle ise -ol high -mt off Car_Control_map.ncd Car_Control.ncd Car_Control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Car_Control.twx Car_Control.ncd -o Car_Control.twr Car_Control.pcf -ucf rx.ucf 
+bitgen -intstyle ise -f Car_Control.ut Car_Control.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rx.ucf -p xc6slx9-tqg144-3 Car_Control.ngc Car_Control.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Car_Control_map.ncd Car_Control.ngd Car_Control.pcf 
+par -w -intstyle ise -ol high -mt off Car_Control_map.ncd Car_Control.ncd Car_Control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Car_Control.twx Car_Control.ncd -o Car_Control.twr Car_Control.pcf -ucf rx.ucf 
+bitgen -intstyle ise -f Car_Control.ut Car_Control.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rx.ucf -p xc6slx9-tqg144-3 Car_Control.ngc Car_Control.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Car_Control_map.ncd Car_Control.ngd Car_Control.pcf 
+par -w -intstyle ise -ol high -mt off Car_Control_map.ncd Car_Control.ncd Car_Control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Car_Control.twx Car_Control.ncd -o Car_Control.twr Car_Control.pcf -ucf rx.ucf 
+bitgen -intstyle ise -f Car_Control.ut Car_Control.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rx.ucf -p xc6slx9-tqg144-3 Car_Control.ngc Car_Control.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Car_Control_map.ncd Car_Control.ngd Car_Control.pcf 
+par -w -intstyle ise -ol high -mt off Car_Control_map.ncd Car_Control.ncd Car_Control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Car_Control.twx Car_Control.ncd -o Car_Control.twr Car_Control.pcf -ucf rx.ucf 
+bitgen -intstyle ise -f Car_Control.ut Car_Control.ncd 
+vhdtdtfi -lib work rx.vhd -lib work Car_Control.vhd -prj uart_rx -o Car_Control.spl -module Car_Control -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Car_Control.spl /home/ise/VM/uart_rx/Car_Control.sym 
+xst -intstyle ise -ifn "/home/ise/VM/uart_rx/Car_Control.xst" -ofn "/home/ise/VM/uart_rx/Car_Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rx.ucf -p xc6slx9-tqg144-3 Car_Control.ngc Car_Control.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Car_Control_map.ncd Car_Control.ngd Car_Control.pcf 
+par -w -intstyle ise -ol high -mt off Car_Control_map.ncd Car_Control.ncd Car_Control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Car_Control.twx Car_Control.ncd -o Car_Control.twr Car_Control.pcf -ucf rx.ucf 
+bitgen -intstyle ise -f Car_Control.ut Car_Control.ncd 

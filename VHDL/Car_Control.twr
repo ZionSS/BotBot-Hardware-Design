@@ -1,0 +1,86 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml Car_Control.twx Car_Control.ncd -o Car_Control.twr
+Car_Control.pcf -ucf rx.ucf
+
+Design file:              Car_Control.ncd
+Physical constraint file: Car_Control.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock SysClk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+Reset       |    4.226(R)|      SLOW  |   -0.501(R)|      FAST  |SysClk_BUFGP      |   0.000|
+Rx          |    5.366(R)|      SLOW  |   -1.579(R)|      FAST  |SysClk_BUFGP      |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock SysClk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Led<0>      |         8.390(R)|      SLOW  |         4.670(R)|      FAST  |SysClk_BUFGP      |   0.000|
+Led<1>      |         8.167(R)|      SLOW  |         4.533(R)|      FAST  |SysClk_BUFGP      |   0.000|
+Led<2>      |         8.182(R)|      SLOW  |         4.528(R)|      FAST  |SysClk_BUFGP      |   0.000|
+Led<3>      |         8.501(R)|      SLOW  |         4.849(R)|      FAST  |SysClk_BUFGP      |   0.000|
+Led<4>      |         8.529(R)|      SLOW  |         4.834(R)|      FAST  |SysClk_BUFGP      |   0.000|
+Led<5>      |         9.280(R)|      SLOW  |         5.265(R)|      FAST  |SysClk_BUFGP      |   0.000|
+Led<6>      |         9.223(R)|      SLOW  |         5.242(R)|      FAST  |SysClk_BUFGP      |   0.000|
+Led<7>      |         9.165(R)|      SLOW  |         5.239(R)|      FAST  |SysClk_BUFGP      |   0.000|
+MN<0>       |         8.839(R)|      SLOW  |         4.999(R)|      FAST  |SysClk_BUFGP      |   0.000|
+MN<1>       |         9.013(R)|      SLOW  |         5.086(R)|      FAST  |SysClk_BUFGP      |   0.000|
+MN<2>       |         8.812(R)|      SLOW  |         4.980(R)|      FAST  |SysClk_BUFGP      |   0.000|
+MN<3>       |         8.946(R)|      SLOW  |         5.052(R)|      FAST  |SysClk_BUFGP      |   0.000|
+Motor<0>    |         8.552(R)|      SLOW  |         4.782(R)|      FAST  |SysClk_BUFGP      |   0.000|
+Motor<1>    |         8.763(R)|      SLOW  |         4.906(R)|      FAST  |SysClk_BUFGP      |   0.000|
+Motor<2>    |         8.763(R)|      SLOW  |         4.916(R)|      FAST  |SysClk_BUFGP      |   0.000|
+Motor<3>    |         9.068(R)|      SLOW  |         5.090(R)|      FAST  |SysClk_BUFGP      |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock SysClk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SysClk         |    3.669|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Wed May 24 23:38:05 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 383 MB
+
+
+

@@ -1,0 +1,30 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed May 24 23:37:43 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Led<3>" LOCATE = SITE "P79" LEVEL 1;
+COMP "Led<4>" LOCATE = SITE "P78" LEVEL 1;
+COMP "Led<5>" LOCATE = SITE "P75" LEVEL 1;
+COMP "Led<6>" LOCATE = SITE "P74" LEVEL 1;
+COMP "Led<7>" LOCATE = SITE "P67" LEVEL 1;
+COMP "Motor<0>" LOCATE = SITE "P23" LEVEL 1;
+COMP "Motor<1>" LOCATE = SITE "P21" LEVEL 1;
+COMP "Motor<2>" LOCATE = SITE "P16" LEVEL 1;
+COMP "Motor<3>" LOCATE = SITE "P14" LEVEL 1;
+COMP "MN<0>" LOCATE = SITE "P84" LEVEL 1;
+COMP "MN<1>" LOCATE = SITE "P85" LEVEL 1;
+COMP "MN<2>" LOCATE = SITE "P87" LEVEL 1;
+COMP "MN<3>" LOCATE = SITE "P88" LEVEL 1;
+COMP "MN<4>" LOCATE = SITE "P92" LEVEL 1;
+COMP "MN<5>" LOCATE = SITE "P93" LEVEL 1;
+COMP "SysClk" LOCATE = SITE "P123" LEVEL 1;
+COMP "MN<6>" LOCATE = SITE "P94" LEVEL 1;
+COMP "MN<7>" LOCATE = SITE "P95" LEVEL 1;
+COMP "Reset" LOCATE = SITE "P47" LEVEL 1;
+COMP "Rx" LOCATE = SITE "P97" LEVEL 1;
+COMP "Led<0>" LOCATE = SITE "P82" LEVEL 1;
+COMP "Led<1>" LOCATE = SITE "P81" LEVEL 1;
+COMP "Led<2>" LOCATE = SITE "P80" LEVEL 1;
+SCHEMATIC END;
+

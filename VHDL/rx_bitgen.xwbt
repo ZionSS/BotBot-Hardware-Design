@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/VM/uart_rx/rx.ncd
+OUTFILE=/home/ise/VM/uart_rx/rx.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=/home/ise/VM/uart_rx
+LICENSE=WebPack
+USER_INFO=8416_11442_1478797146_620

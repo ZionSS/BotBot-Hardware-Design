@@ -1,0 +1,9 @@
+[Inputs]
+Reset
+SysClk
+Rx
+[Outputs]
+=Motor[3:0]=
+=Led[7:0]=
+=MN[7:0]=
+[BiDir]
